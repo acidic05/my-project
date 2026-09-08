@@ -1,20 +1,101 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+    padding: 0 !important;
+    margin: 0 !important;
+    box-sizing: border-box !important;
+}
+.overall {
+    background-color: rgba(58, 52, 64, 1);
+    width: fit-content;
+    height: fit-content;
+    border-left: 1px solid rgba(58, 52, 64, 1) !important;
+    border-right: 1px solid rgba(58, 52, 64, 1) !important;
+    border-bottom: 1px solid rgba(58, 52, 64, 1) !important;
+}
+header {
+    background-color: rgba(21, 23, 30, 1);
+    border-bottom: 1px solid;
+    border-bottom-right-radius: 10px !important;
+    border-bottom-left-radius: 10px !important;
+}
+header img {
+    height: 20px;
+}
+body {
+    background-color: rgba(21, 23, 30, 1) !important;
+    margin-top: 30px !important;
+    border-top-right-radius: 20px !important;
+    border-top-left-radius: 20px !important;
+}
+.serchicon {
+    height: 30px !important;
+}
+.menuicon {
+    height: 40px;
+}
+main img {
+    height: 10px !important;
+}
+.starting {
+    background-color: rgba(21, 23, 30, 1) !important;
+    margin: 0 auto !important;
+    padding: 32px !important;
+}
+.starting-text :nth-child(1) {
+    font-size: 35px !important;
+    color: #ffffff !important;
+    text-align: center;
 }
 
-.background-1 {
-    background-color: #15171e;
-    padding: 30px 30px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 500px;
+.starting-text :nth-child(2) {
+    font-size: 18px !important;
+    color: #87878b !important;
+    text-align: center !important;
+
 }
-.background-1 img {
-    height: 30px;
+
+.btn>button {
+    padding: 5px 25px !important;
+    border-radius: 10px  !important;
+    background-color: transparent !important;
+    color: white !important;
 }
-.background-2 {
-    height: 30px;
+.btn1 {
+    border: 4px solid transparent;
+    background: linear-gradient(#15171e, #15171e) padding-box, linear-gradient(#5e28a5, #512289, #a76eea, #53237f, #5e28a5, #512289, #a76eea, #53237f, #5e28a5, #512289, #a76eea, #53237f, #5e28a5, #512289, #a76eea, #53237f)   
+}
+
+.btn1 {
+    background-size: 200% 200% !important;
+    transition: all 0.2s ease;
+    animation: rotation 50s linear infinite !important; 
+}
+
+.btn1:hover {
+    transform: scale(1.1);
+
+
+}
+
+@keyframes rotation {
+    0% {
+        background-position: 0% 0%;
+    }
+    
+    50% {
+        background-position: 100% 100%;
+    }
+    100% {
+        background-position: 0% 0%;
+    }
+}
+
+.btn2 {
+    border: 2px solid #322c38 !important;
+    cursor: pointer;
+}
+.btn2:hover {
+    background-color: white !important;
+    color: black !important;
+    transition: all 0.2s ease;
+    transform: scale(1.1);
 }
