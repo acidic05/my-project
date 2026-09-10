@@ -122,7 +122,7 @@ border-right: 2px solid !important;
     border-left: 2px solid rgba(33, 37, 41, 1);
 }
 .anim{
-    animation: moving 20s linear infinite;
+    animation: moving 10s linear infinite;
 }
 @keyframes moving {
     0% {
