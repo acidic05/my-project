@@ -130,7 +130,7 @@ border-right: 2px solid !important;
     }
     
     100% {
-        transform: translateX(-700px);
+        transform: translateX(-800px);
     }
 }
 
