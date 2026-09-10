@@ -110,6 +110,9 @@ border-right: 2px solid !important;
     overflow: hidden;
     margin-top: 1px !important; 
 }
+.log-1 {
+    height: 80px !important;
+}
 .anim {
     padding: 30px 40px !important;
     text-align: center;
@@ -118,8 +121,20 @@ border-right: 2px solid !important;
 .anim + .anim {
     border-left: 2px solid rgba(33, 37, 41, 1);
 }
-
-
+.anim{
+    animation: moving 20s linear infinite;
+}
+@keyframes moving {
+    0% {
+        transform: translateX(100%);
+    }
+    20% {
+        transform: translateX(100%);
+    }
+    50% {
+        transform: translateX(100%);
+    }
+}
 
 
 
