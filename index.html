@@ -108,7 +108,7 @@
                             </div>
                         </div>
 
-                        <div class="search">
+                        <!-- <div class="search">
                             <span class="search-icon"></span>
                             <span class="search-text">Search</span>
                             <span class="shortcut">Ctrl + K</span>
@@ -137,7 +137,7 @@
 
 
                             </ul>
-                        </li>
+                        </li> -->
                     </nav>
 
 
@@ -159,14 +159,88 @@
 
                 <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight"
                     aria-labelledby="offcanvasRightLabel">
-                    <div class="border-0 offcanvas-header">
+                    <div class="border-0 offcanvas-header d-flex justify-content-between align-items-center">
                         <h5 class="offcanvas-title" id="offcanvasRightLabel"><img
                                 src="media/vite-light.t8GCa_VF (3).svg" alt=""></h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+
+                        <div class="d-flex gap-3 align-items-center">
+                            <img class="serchicon d-lg-none"
+                                src="media/search_34dp_E3E3E3_FILL0_wght400_GRAD0_opsz40.svg" alt="">
+                            <button type="button" class="btn-close mr-2" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+                        </div>
                     </div>
                     <div class="offcanvas-body">
-                        ...
+                        <p class="mt-5 px-4 py-2 text-light">Guide</p>
+                        <p class="mt-1 px-4 py-2 text-light">Config</p>
+                        <p class="mt-1 px-4 py-2 text-light">Plugins</p>
+
+                        <!-- <li class="nav-item dropdown"> -->
+                        <a class="nav-link dropdown-toggle text-light mt-1 px-4 py-2" href="#" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Resorce
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item text-light px-4 py-2" href="#">Team</a></li>
+                            <li><a class="dropdown-item text-light px-4 py-2" href="#">Blog</a></li>
+                            <li><a class="dropdown-item text-light px-4 py-2" href="#">Release</a></li>
+                            <li><a class="dropdown-item text-light px-4 py-2" href="#">Acknowlegements</a></li>
+                            <li><a class="dropdown-item text-light px-4 py-2" href="#">Code of
+                                    Conducts</a></li>
+                            <li><a class="dropdown-item text-light px-4 py-2" href="#">Plugins
+                                    Registry</a></li>
+                            <li><a class="dropdown-item text-light px-4 py-2" href="#">The
+                                    Documentary</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item text-light px-4 py-2" href="#">Bluesky</a></li>
+                            <li><a class="dropdown-item text-light px-4 py-2" href="#">Mastodon</a></li>
+                            <li><a class="dropdown-item text-light px-4 py-2" href="#">X</a></li>
+                            <li><a class="dropdown-item text-light px-4 py-2" href="#">Discord Chat</a>
+                            </li>
+                            <li><a class="dropdown-item text-light px-4 py-2" href="#">Awesome Vite</a>
+                            </li>
+                            <li><a class="dropdown-item text-light px-4 py-2" href="#">ViteConf</a></li>
+                            <li><a class="dropdown-item text-light px-4 py-2" href="#">DEV Community</a>
+                            </li>
+                        </ul>
+                        </li>
+
+                        <!-- <li class="nav-item dropdown"> -->
+                        <a class="nav-link dropdown-toggle text-light mt-1 px-4 py-2" href="#" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            V8.3.0
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item text-light px-4 py-2" href="#">Changelog</a>
+                            </li>
+                            <li><a class="dropdown-item text-light px-4 py-2" href="#">Contributing</a>
+                            </li>
+                            <li>
+                                <hr class="dropdown-divider ">
+                            </li>
+                            <li><a class="dropdown-item text-light px-4 py-2" href="#">Vite 7 Docs</a>
+                            </li>
+                            <li><a class="dropdown-item text-light px-4 py-2" href="#">Vite 6 Docs/a>
+                            </li>
+                            <li><a class="dropdown-item text-light px-4 py-2" href="#">Vite 5 Docs</a>
+                            </li>
+                            <li><a class="dropdown-item text-light px-4 py-2" href="#">Vite 4 Docs</a>
+                            </li>
+                            <li><a class="dropdown-item text-light px-4 py-2" href="#">Vite 3 Docs</a>
+                            </li>
+                            <li><a class="dropdown-item text-light px-4 py-2" href="#">Vite 2 Docs</a>
+                            </li>
+
+                        </ul>
+                        </li>
                     </div>
+
+                    <div class="off-canvas">
+                        <p class="text-light">Language</p>
+                    </div>
+
                 </div>
 
             </div>
@@ -257,20 +331,43 @@
             <div class="log-1 anim d-flex gap-2 justify-content-center">Wiz</div>
         </div>
 
-        <div>
-            <p>Redefining developer experience</p>
-            <h1>Vite makes web development enjoyable again</h1>
+        <div class="third-back d-flex flex-column gap-4">
+            <h1 class="text-light fs-5">Redefining developer experience</h1>
+            <p class="text-light mb-4">Vite makes web development enjoyable again</p>
         </div>
 
+        <div class="four-back gap-4">
+            <h1 class="text-light fs-5 py-2">Instant Server Start</h1>
+            <p class="text-light mb-4">On demand source file serving over native ESM, with blazing fast dependency
+                pre-bundling.</p>
+
+            <div class="five-back d-flex flex-column flex-md-row gap-4 justify-content-center align-items-center">
+                <img src="media/vite-featurepanel-1-background.BHnDg8j4.jpg" alt="">
+                <img class="five-bac" src="media/vite-featurepanel-1-terminal.CQVUoUSU.svg">
+            </div>
+
+            <div class="six-back">
+                <h1 class="text-light fs-5 py-2">Lightning Fast HMR</h1>
+                <p class="text-light mb-4">Instantly reflect changes as you save, no matter how big your app is.</p>
+            </div>
+
+            <div class="six">
+                <img src="media/vite-featurepanel-2-terminal.ChpAU6sR.png" alt="">
+            </div>
+
+            <div class="six-bac mt-3 gap-2">
+                <h1 class="text-light fs-5 py-2">Rich Features Out of the Box</h1>
+                <p class="text-light mb-4">TypeScript, JSX, CSS, Workers, WebAssembly... and more just a plugin away.
+                </p>
+                <img src="media/aminations.png" alt="">
+            </div>
 
 
 
 
 
 
-
-
-    </div>
+        </div>
 
 
     </div>
